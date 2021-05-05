@@ -1,0 +1,22 @@
+:root {
+}
+/*212121 основной цвет текста*/
+/*757575 вторичный цвет текста*/
+/*FFFFFF белый*/
+/*2196F3 цвет акцент*/
+/*FFFFFF цвет фона основной*/
+/*F5F4FA цвет фона вторичный*/
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+}
+
+/*.logo-web {
+  color: #2196f3;
+}*/
