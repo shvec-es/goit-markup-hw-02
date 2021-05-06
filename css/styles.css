@@ -1,22 +1,90 @@
 :root {
+  --primary-text-color: #212121; /*основной цвет текста*/
+  --text-color: #757575; /*вторичный цвет текста*/
+  --accent-color: #2196f3; /*цвет акцент*/
 }
-/*212121 основной цвет текста*/
-/*757575 вторичный цвет текста*/
-/*FFFFFF белый*/
-/*2196F3 цвет акцент*/
+
+/*000000 черный лого*/
 /*FFFFFF цвет фона основной*/
 /*F5F4FA цвет фона вторичный*/
 
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
+ul {
+  list-style: none;
+}
+
+/*logo*/
 .logo {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
-/*.logo-web {
-  color: #2196f3;
-}*/
+.logo-web {
+  color: var(--accent-color);
+}
+
+/*site-nav*/
+.site-nav a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/*auth-nav*/
+.auth-nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+.hero-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/*section*/
+.section {
+}
+
+.section-p {
+  color: var(--text-color);
+}
+
+/*footer*/
+footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 35px;
+}
+.address {
+  color: #ffffff;
+  font-style: normal;
+  padding-left: 35px;
+}
+.footer-list a {
+  color: rgba(255, 255, 255, 60%);
+  font-style: normal;
+  text-decoration: none;
+}
