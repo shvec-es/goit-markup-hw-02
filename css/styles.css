@@ -21,6 +21,12 @@ ul {
 .logo {
   text-decoration: none;
   color: #000000;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -31,6 +37,12 @@ ul {
 .site-nav a {
   text-decoration: none;
   color: var(--primary-text-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
@@ -42,6 +54,12 @@ ul {
 .auth-nav a {
   text-decoration: none;
   color: var(--text-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav a:hover,
@@ -51,22 +69,63 @@ ul {
 
 /*hero*/
 .hero-title {
-  text-transform: uppercase;
-  text-align: center;
   color: var(--accent-color);
+
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .hero-button {
   color: #ffffff;
   background-color: var(--accent-color);
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /*section*/
 .section {
 }
+.section-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
+.section-title-features {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-title-team {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 .section-p {
   color: var(--text-color);
+
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /*footer*/
@@ -76,17 +135,34 @@ footer {
 .logo-footer {
   color: #ffffff;
   text-decoration: none;
+  padding-top: 25px;
   padding-left: 35px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .address {
   color: #ffffff;
   font-style: normal;
   padding-left: 35px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer-list a {
   color: rgba(255, 255, 255, 60%);
   font-style: normal;
   text-decoration: none;
+
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /*портфолио*/
