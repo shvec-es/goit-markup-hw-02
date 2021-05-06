@@ -166,6 +166,17 @@ footer {
 }
 
 /*портфолио*/
+.filter-button-item {
+  color: var(--primary-text-color);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .filter-button-item:hover,
 .filter-button-item:focus {
   color: #ffffff;
@@ -177,8 +188,19 @@ footer {
 
 .examples-list h2 {
   color: var(--primary-text-color);
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .examples-list p {
   color: var(--text-color);
+
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
