@@ -4,29 +4,26 @@
   --accent-color: #2196f3; /*цвет акцент*/
 }
 
-/*000000 черный лого*/
-/*FFFFFF цвет фона основной*/
-/*F5F4FA цвет фона вторичный*/
-
 body {
-  background-color: #ffffff;
   color: var(--primary-text-color);
+  background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
 /*logo*/
 .logo {
-  text-decoration: none;
   color: #000000;
 
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -35,14 +32,12 @@ ul {
 
 /*site-nav*/
 .site-nav a {
-  text-decoration: none;
   color: var(--primary-text-color);
 
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav a:hover,
@@ -52,14 +47,12 @@ ul {
 
 /*auth-nav*/
 .auth-nav a {
-  text-decoration: none;
   color: var(--text-color);
 
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .auth-nav a:hover,
@@ -71,7 +64,6 @@ ul {
 .hero-title {
   color: var(--accent-color);
 
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -84,19 +76,17 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
 
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 /*section*/
-.section {
-}
 .section-title {
-  font-family: Roboto;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -104,8 +94,6 @@ ul {
 }
 
 .section-title-features {
-  font-family: Roboto;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -113,7 +101,6 @@ ul {
 }
 
 .section-title-team {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -122,59 +109,66 @@ ul {
 .section-p {
   color: var(--text-color);
 
-  font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /*footer*/
-footer {
+.footer {
   background-color: #2f303a;
 }
+
 .logo-footer {
   color: #ffffff;
-  text-decoration: none;
-  padding-top: 25px;
-  padding-left: 35px;
 
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-.address {
-  color: #ffffff;
-  font-style: normal;
-  padding-left: 35px;
-
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.footer-list a {
-  color: rgba(255, 255, 255, 60%);
-  font-style: normal;
   text-decoration: none;
 
-  font-family: Roboto;
+  padding-top: 25px;
+  padding-left: 35px;
+}
+
+.address {
+  color: #ffffff;
+
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  padding-left: 35px;
+}
+
+.footer-list a {
+  color: rgba(255, 255, 255, 60%);
+
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-list a:hover,
+.footer-list a:focus {
+  color: var(--accent-color);
 }
 
 /*портфолио*/
 .filter-button-item {
-  color: var(--primary-text-color);
-
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
+  cursor: pointer;
 }
 
 .filter-button-item:hover,
@@ -182,6 +176,7 @@ footer {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+
 .examples-list a {
   text-decoration: none;
 }
@@ -189,8 +184,6 @@ footer {
 .examples-list h2 {
   color: var(--primary-text-color);
 
-  font-family: Roboto;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -199,7 +192,6 @@ footer {
 .examples-list p {
   color: var(--text-color);
 
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
